@@ -1,2 +1,3 @@
 # django-mysqltimestamp
-Timestamp model field for Django ( only for Mysql )
+
+django-mysqltimestamp is a package to allow end users to create timestamp model field for MySQL.
