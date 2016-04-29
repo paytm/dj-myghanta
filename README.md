@@ -1,5 +1,7 @@
 # dj-myghanta
 
+[![PyPI version](https://badge.fury.io/py/dj-myghanta.svg)](https://badge.fury.io/py/dj-myghanta)
+
 dj-myghanta is a Django app to allow end users to create timestamp model field for MySQL.
 
 ## Installation
