@@ -1,25 +1,25 @@
-======================
-Django MysqlTimestamp
-======================
+============
+Dj myghanta
+============
 
-Django MysqlTimestamp is a package to create MySQL timestamp field for Django models.
+Dj myghanta is a Django app to create MySQL timestamp field for Django models.
 
 Quick start
 -----------
 
-1. Add "mysqltimestamp_field" to your INSTALLED_APPS like this::
+1. Add "myghanta" to your INSTALLED_APPS like this::
 
     ```
     INSTALLED_APPS = (
         ...
-        'mysqltimestamp_field',
+        'myghanta',
     )
     ```
 
 2. Import it in your models like::
 
     ```
-    from mysqltimestamp_field.fields import MysqlTimeStampField
+    from myghanta.fields import MysqlTimeStampField
     ```
 
 3. Create model fields like::
