@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as readme:
     README = readme.read()
 
-VERSION = __import__("mysqltimestamp_field").__version__
+VERSION = __import__("myghanta").__version__
 
 CLASSIFIERS = [
     'Development Status :: 4 - Beta',
@@ -22,14 +22,14 @@ CLASSIFIERS = [
 ]
 
 setup(
-    name='django-mysqltimestamp',
+    name='dj-myghanta',
     version=VERSION,
     packages=find_packages(),
     include_package_data=True,
     license='MIT License',
     description='Package to create MySQL timestamp field for Django models',
     long_description=README,
-    url='https://github.com/paytm/django-mysqltimestamp',
+    url='https://github.com/paytm/dj-myghanta',
     author='Shrey Agarwal, Taranjeet Singh',
     author_email='shrey.agarwal@paytm.com, reachtotj@gmail.com',
     classifiers=CLASSIFIERS,
