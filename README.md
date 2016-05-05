@@ -45,3 +45,8 @@ dj-myghanta is a Django app to allow end users to create timestamp model field f
     # auto_now = True creates `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
     updated_at = MysqlTimestamp(auto_now=True)
     ```
+
+
+## Known Issues/ ToDo
+
+* Works only for Mysql . Tested on mysql 5.6, 5.7
